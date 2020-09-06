@@ -294,7 +294,6 @@ if ( ! class_exists( 'Charitable_Gateway_Paypal' ) ) :
 					'address1'      => isset( $user_data['address'] ) ? $user_data['address'] : '',
 					'address2'      => isset( $user_data['address_2'] ) ? $user_data['address_2'] : '',
 					'city'          => isset( $user_data['city'] ) ? $user_data['city'] : '',
-					'country'       => isset( $user_data['country'] ) ? $user_data['country'] : '',
 					'zip'           => isset( $user_data['postcode'] ) ? $user_data['postcode'] : '',
 					'invoice'       => $donation_key,
 					'amount'        => $donation->get_total_donation_amount( true ),
